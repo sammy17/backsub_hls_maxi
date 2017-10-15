@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="@W [SCHED-32] Invalid protocol: Cannot embed pipeline region inside protocol 'memcopy2'." projectName="backsub_hls_maxi" solutionName="solution1" date="2017-10-15T01:54:54.377+0530" type="Warning"/>
+        <logs message="@W [SCHED-32] Invalid protocol: Cannot embed pipeline region inside protocol 'loop1'." projectName="backsub_hls_maxi" solutionName="solution1" date="2017-10-15T01:54:54.372+0530" type="Warning"/>
+        <logs message="@W [SCHED-32] Invalid protocol: Cannot embed pipeline region inside protocol 'memcopy1'." projectName="backsub_hls_maxi" solutionName="solution1" date="2017-10-15T01:54:54.360+0530" type="Warning"/>
+        <logs message="@W [SCHED-31] Invalid protocol: Begin anchor missing in region 'backsub'." projectName="backsub_hls_maxi" solutionName="solution1" date="2017-10-15T01:54:54.305+0530" type="Warning"/>
+      </synLog>
+      <simLog>
+        <logs message="@W [SIM-369] AXI_master port 'frame_out' has a depth of '103680'. Insufficient depth may result in simulation mismatch or freeze.&#xA;   Build using &quot;/opt/Xilinx/Vivado_HLS/2015.4/lnx64/tools/gcc/bin/g++&quot;&#xA;   Compiling core.cpp_pre.cpp.tb.cpp&#xA;   Compiling apatb_backsub.cpp&#xA;   Compiling test.cpp_pre.cpp.tb.cpp&#xA;   Generating cosim.tv.exe" projectName="backsub_hls_maxi" solutionName="solution1" date="2017-10-15T02:04:25.553+0530" type="Warning"/>
+        <logs message="@W [SIM-369] AXI_master port 'frame_in' has a depth of '103680'. Insufficient depth may result in simulation mismatch or freeze." projectName="backsub_hls_maxi" solutionName="solution1" date="2017-10-15T02:01:03.693+0530" type="Warning"/>
+      </simLog>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,36 @@
+obj/core.o: ../../../core.cpp ../../../core.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls_math.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/ap_int.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/etc/ap_int_sim.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/etc/ap_private.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/etc/ap_fixed_sim.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/etc/ap_int_sim.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/utils/x_hls_defines.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/ap_int.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/utils/x_hls_utils.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/ap_fixed.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls_half.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/floating_point_v7_0_bitacc_cmodel.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/gmp.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/mpfr.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/utils/x_hls_traits.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/utils/x_hls_utils.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/utils/x_hls_defines.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls_fpo.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/gmp.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/mpfr.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_cordic.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_big_mult.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_range_redux.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/utils/x_hls_float_utils.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_cordic_tables.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_normalize.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_round.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_log.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/utils/x_hls_utils.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_log_tables.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_log_reference_tables.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_hotbm.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/utils/x_hls_defines.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_hotbm_tables.h \
+ /opt/Xilinx/Vivado_HLS/2015.4/include/hls/hls_sqrt.h
