@@ -23,7 +23,7 @@ HLS_SOURCES = ../../../test.cpp ../../../core.cpp
 
 TARGET := csim.exe
 
-AUTOPILOT_ROOT := /opt/Xilinx/Vivado_HLS/2015.4
+AUTOPILOT_ROOT := /home/zynq-fyp/Xilinx/Vivado_HLS/2015.4
 AUTOPILOT_MACH := lnx64
 ifdef AP_GCC_M32
   AUTOPILOT_MACH := Linux_x86
@@ -31,10 +31,10 @@ ifdef AP_GCC_M32
 endif
 IFLAG += -fPIC
 ifndef AP_GCC_PATH
-  AP_GCC_PATH := /opt/Xilinx/Vivado_HLS/2015.4/lnx64/tools/gcc/bin
+  AP_GCC_PATH := /home/zynq-fyp/Xilinx/Vivado_HLS/2015.4/lnx64/tools/gcc/bin
 endif
 ifndef AP_CLANG_PATH
-  AP_CLANG_PATH := /opt/Xilinx/Vivado_HLS/2015.4/lnx64/tools/clang/bin
+  AP_CLANG_PATH := /home/zynq-fyp/Xilinx/Vivado_HLS/2015.4/lnx64/tools/clang/bin
 endif
 AUTOPILOT_TOOL := ${AUTOPILOT_ROOT}/${AUTOPILOT_MACH}/tools
 AUTOPILOT_TECH := ${AUTOPILOT_ROOT}/common/technology
@@ -72,7 +72,7 @@ all: $(TARGET)
 
 $(ObjDir)/test.o: ../../../test.cpp $(ObjDir)/.dir
 	$(Echo) "   Compiling ../../../test.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
-	$(Verb)  $(CC) -c -MMD   $(IFLAG) $(DFLAG)  $< -o $@ ; \
+	$(Verb)  $(CC) -c -MMD    $(IFLAG) $(DFLAG)  $< -o $@ ; \
 
 -include $(ObjDir)/test.d
 

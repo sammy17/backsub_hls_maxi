@@ -207,7 +207,7 @@ set MemName backsub_frame1
 set CoreName ap_simcore_mem
 set PortList { 2 3 }
 set DataWd 8
-set AddrRange 103680
+set AddrRange 76800
 set AddrWd 17
 set impl_style block
 set TrueReset 0
@@ -289,7 +289,7 @@ set MemName backsub_frame2
 set CoreName ap_simcore_mem
 set PortList { 2 0 }
 set DataWd 8
-set AddrRange 103680
+set AddrRange 76800
 set AddrWd 17
 set impl_style block
 set TrueReset 0

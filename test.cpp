@@ -1,33 +1,22 @@
 #include <hls_opencv.h>
 #include "core.h"
-//#include <opencv2/core/core.hpp>
 #include <iostream>
 #include <fstream>
 #include <climits>
-//#include "imgData.h"
-//#include <opencv2/highgui/highgui.hpp>
 #include <iostream>
 
 #define DTYPE HLS_32FC3
 
-cv::Mat IMG1(288, 360, CV_8UC1);
-//cv::Mat IMG2(288, 360, CV_8UC1);
-//cv::Mat IMG3(288, 360, CV_8UC1);
-
-cv::Mat outImg(288, 360, CV_8UC1);
-//cv::Mat outImg(360,288, CV_8UC1);
+cv::Mat IMG1(IMG_H, IMG_W, CV_8UC1);
+cv::Mat outImg(IMG_H, IMG_W, CV_8UC1);
 
 int main() {
 
 	cv::Mat img_t;
 
-//	cv::Mat img1 = cv::imread("test.png", CV_LOAD_IMAGE_GRAYSCALE);
-//	cv::Mat img2 = cv::imread("test.png", CV_LOAD_IMAGE_GRAYSCALE);
-//	cv::Mat img3 = cv::imread("test.png", CV_LOAD_IMAGE_GRAYSCALE);
-
 	cv::VideoCapture cap;
 	cv::Mat frame;
-	cap.open("cut.avi");
+	cap.open("cut_out.avi");
 
 	if (!cap.isOpened()) {
 		std::cerr << "ERROR! Unable to open camera\n";
@@ -36,11 +25,9 @@ int main() {
 	cap.read(frame);
 	printf("height = %d, width = %d\n", frame.rows, frame.cols);
 	cv::cvtColor(frame, IMG1, CV_BGR2GRAY);
-//	cv::cvtColor(frame, IMG2, CV_BGR2GRAY);
-//	cv::cvtColor(frame, IMG3, CV_BGR2GRAY);
 
-	uint8_t frame_ar[103680];
-	uint8_t frame_out[103680] = { 0 };
+	uint8_t frame_ar[76800];
+	uint8_t frame_out[76800] = { 0 };
 
 	for (int idxrow = 0; idxrow < IMG1.rows; idxrow++) {
 		for (int idxcol = 0; idxcol < IMG1.cols; idxcol++) {
@@ -96,7 +83,6 @@ int main() {
 		}
 		cv::namedWindow("Live1");
 		cv::imshow("Live1", IMG1);
-		//cv::namedWindow("Live2");
 		cv::imshow("Live2", outImg);
 		if (cv::waitKey(10) >= 0)
 			break;

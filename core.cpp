@@ -4,30 +4,30 @@
 
 int backsub(uint8_t * frame_in, uint8_t * frame_out, bool init) {
 #pragma HLS INTERFACE s_axilite port=init bundle=CRTL_BUS
-#pragma HLS INTERFACE m_axi depth=103680 port=frame_out offset=slave
-#pragma HLS INTERFACE m_axi depth=103680 port=frame_in offset=slave
+#pragma HLS INTERFACE m_axi depth=76800 port=frame_out offset=slave
+#pragma HLS INTERFACE m_axi depth=76800 port=frame_in offset=slave
 #pragma HLS INTERFACE s_axilite port=return bundle=CRTL_BUS
 #pragma HLS PROTOCOL fixed
-	float alpha = 0.5;
-	float beta = 0.3;
-	float gamma = 0.2;
+	float alpha = 0.1;
+	float beta = 0.2;
+	float gamma = 0.7;
 
-	uint8_t threshold = 15;
+	uint8_t threshold = 30;
 
-	uint8_t frame1[103680];
-	uint8_t frame2[103680];
-	uint8_t frame3[103680];
-	uint8_t out[103680];
+	uint8_t frame1[IMG_DEPTH];
+	uint8_t frame2[IMG_DEPTH];
+	uint8_t frame3[IMG_DEPTH];
+	uint8_t out[IMG_DEPTH];
 
 	memcopy1 : {
 #pragma HLS PROTOCOL fixed
-		memcpy(frame1, frame_in, sizeof(uint8_t) * 103680);
+		memcpy(frame1, frame_in, sizeof(uint8_t) * IMG_DEPTH);
 	}
 
 loop1 : {
 #pragma HLS PROTOCOL fixed
 	if (init) {
-		for (int i = 0; i < 288 * 360; i++) {
+		for (int i = 0; i < IMG_DEPTH; i++) {
 #pragma HLS PIPELINE
 			uint8_t val = frame1[i];
 			frame2[i] = val;
@@ -37,7 +37,7 @@ loop1 : {
 
 	} else {
 
-		for (int i = 0; i < 288 * 360; i++) {
+		for (int i = 0; i < IMG_DEPTH; i++) {
 #pragma HLS PIPELINE
 			uint8_t val1 = frame1[i];
 			uint8_t val2 = frame2[i];
@@ -57,7 +57,7 @@ loop1 : {
 
 	memcopy2 : {
 #pragma HLS PROTOCOL fixed
-		memcpy(frame_out,out,sizeof(uint8_t)*103680);
+		memcpy(frame_out,out,sizeof(uint8_t)*IMG_DEPTH);
 	}
 
 	return 0;

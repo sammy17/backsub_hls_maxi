@@ -1,4 +1,4 @@
-; ModuleID = '/home/chathura/HoG_IP/backsub_hls_maxi/solution1/.autopilot/db/a.o.2.bc'
+; ModuleID = '/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/solution1/.autopilot/db/a.o.2.bc'
 target datalayout = "e-p:64:64:64-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:64:64-f32:32:32-f64:64:64-v64:64:64-v128:128:128-a0:0:64-s0:64:64-f80:128:128-n8:16:32:64-S128"
 target triple = "x86_64-unknown-linux-gnu"
 
@@ -42,27 +42,27 @@ define i32 @backsub(i8* %gmem, i32 %frame_in, i32 %frame_out, i1 %init) {
   call void (...)* @_ssdm_op_SpecBitsMap(i1 %init) nounwind, !map !17
   call void (...)* @_ssdm_op_SpecBitsMap(i32 0) nounwind, !map !23
   call void (...)* @_ssdm_op_SpecTopModule([8 x i8]* @backsub_str) nounwind
-  %frame1 = alloca [103680 x i8], align 16
-  %frame2 = alloca [103680 x i8], align 16
-  %frame3 = alloca [103680 x i8], align 16
-  %out = alloca [103680 x i8], align 16
+  %frame1 = alloca [76800 x i8], align 16
+  %frame2 = alloca [76800 x i8], align 16
+  %frame3 = alloca [76800 x i8], align 16
+  %out = alloca [76800 x i8], align 16
   call void (...)* @_ssdm_op_SpecInterface(i1 %init, [10 x i8]* @p_str1804, i32 0, i32 0, i32 0, i32 0, [9 x i8]* @p_str1805, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
-  call void (...)* @_ssdm_op_SpecInterface(i32 %frame_out, [10 x i8]* @mode1, i32 0, i32 0, i32 0, i32 103680, [1 x i8]* @bundle2, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
-  call void (...)* @_ssdm_op_SpecInterface(i8* %gmem, [6 x i8]* @p_str1807, i32 0, i32 0, i32 0, i32 103680, [1 x i8]* @p_str1806, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
-  call void (...)* @_ssdm_op_SpecInterface(i32 %frame_in, [10 x i8]* @mode, i32 0, i32 0, i32 0, i32 103680, [1 x i8]* @bundle, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
+  call void (...)* @_ssdm_op_SpecInterface(i32 %frame_out, [10 x i8]* @mode1, i32 0, i32 0, i32 0, i32 76800, [1 x i8]* @bundle2, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
+  call void (...)* @_ssdm_op_SpecInterface(i8* %gmem, [6 x i8]* @p_str1807, i32 0, i32 0, i32 0, i32 76800, [1 x i8]* @p_str1806, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
+  call void (...)* @_ssdm_op_SpecInterface(i32 %frame_in, [10 x i8]* @mode, i32 0, i32 0, i32 0, i32 76800, [1 x i8]* @bundle, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
   call void (...)* @_ssdm_op_SpecInterface(i32 0, [10 x i8]* @p_str1804, i32 0, i32 0, i32 0, i32 0, [9 x i8]* @p_str1805, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
   call void (...)* @_ssdm_op_SpecProtocol(i32 1, [1 x i8]* @p_str1806) nounwind
   %tmp = call i32 (...)* @_ssdm_op_SpecRegionBegin([9 x i8]* @p_str1809) nounwind
   call void (...)* @_ssdm_op_SpecProtocol(i32 1, [1 x i8]* @p_str1806) nounwind
   %tmp_17 = sext i32 %frame_in_read to i64
   %gmem_addr = getelementptr i8* %gmem, i64 %tmp_17
-  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 103680)
+  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 76800)
   br label %burst.rd.header
 
 burst.rd.header:                                  ; preds = %burst.rd.body, %0
   %indvar = phi i17 [ 0, %0 ], [ %indvar_next, %burst.rd.body ]
-  %exitcond8 = icmp eq i17 %indvar, -27392
-  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 103680, i64 103680, i64 103680) nounwind
+  %exitcond8 = icmp eq i17 %indvar, -54272
+  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800) nounwind
   %indvar_next = add i17 %indvar, 1
   br i1 %exitcond8, label %burst.rd.end, label %burst.rd.body
 
@@ -73,7 +73,7 @@ burst.rd.body:                                    ; preds = %burst.rd.header
   %tmp_s = zext i17 %indvar to i64
   %gmem_addr_1 = getelementptr i8* %gmem, i64 %tmp_17
   %gmem_addr_1_read = call i8 @_ssdm_op_Read.m_axi.i8P(i8* %gmem_addr_1)
-  %frame1_addr = getelementptr [103680 x i8]* %frame1, i64 0, i64 %tmp_s
+  %frame1_addr = getelementptr [76800 x i8]* %frame1, i64 0, i64 %tmp_s
   store i8 %gmem_addr_1_read, i8* %frame1_addr, align 1
   %burstread_rend = call i32 (...)* @_ssdm_op_SpecRegionEnd([17 x i8]* @burstread_OC_region_str, i32 %burstread_rbegin) nounwind
   br label %burst.rd.header
@@ -86,58 +86,58 @@ burst.rd.end:                                     ; preds = %burst.rd.header
 
 .preheader2:                                      ; preds = %burst.rd.end, %1
   %i = phi i17 [ %i_1, %1 ], [ 0, %burst.rd.end ]
-  %exitcond1 = icmp eq i17 %i, -27392
+  %exitcond1 = icmp eq i17 %i, -54272
   %i_1 = add i17 %i, 1
   br i1 %exitcond1, label %.loopexit, label %1
 
 ; <label>:1                                       ; preds = %.preheader2
-  %empty_9 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 103680, i64 103680, i64 103680) nounwind
+  %empty_9 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800) nounwind
   %tmp_3 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str1811) nounwind
   call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1806) nounwind
   %tmp_4 = zext i17 %i to i64
-  %frame1_addr_1 = getelementptr inbounds [103680 x i8]* %frame1, i64 0, i64 %tmp_4
+  %frame1_addr_1 = getelementptr inbounds [76800 x i8]* %frame1, i64 0, i64 %tmp_4
   %val = load i8* %frame1_addr_1, align 1
-  %frame2_addr = getelementptr inbounds [103680 x i8]* %frame2, i64 0, i64 %tmp_4
+  %frame2_addr = getelementptr inbounds [76800 x i8]* %frame2, i64 0, i64 %tmp_4
   store i8 %val, i8* %frame2_addr, align 1
-  %frame3_addr = getelementptr inbounds [103680 x i8]* %frame3, i64 0, i64 %tmp_4
+  %frame3_addr = getelementptr inbounds [76800 x i8]* %frame3, i64 0, i64 %tmp_4
   store i8 %val, i8* %frame3_addr, align 1
-  %out_addr = getelementptr inbounds [103680 x i8]* %out, i64 0, i64 %tmp_4
+  %out_addr = getelementptr inbounds [76800 x i8]* %out, i64 0, i64 %tmp_4
   store i8 %val, i8* %out_addr, align 1
   %empty_10 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str1811, i32 %tmp_3) nounwind
   br label %.preheader2
 
 .preheader:                                       ; preds = %burst.rd.end, %_ifconv
   %i1 = phi i17 [ %i_2, %_ifconv ], [ 0, %burst.rd.end ]
-  %exitcond = icmp eq i17 %i1, -27392
+  %exitcond = icmp eq i17 %i1, -54272
   %i_2 = add i17 %i1, 1
   br i1 %exitcond, label %.loopexit, label %_ifconv
 
 _ifconv:                                          ; preds = %.preheader
-  %empty_11 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 103680, i64 103680, i64 103680) nounwind
+  %empty_11 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800) nounwind
   %tmp_5 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str1812) nounwind
   call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1806) nounwind
   %tmp_6 = zext i17 %i1 to i64
-  %frame1_addr_2 = getelementptr inbounds [103680 x i8]* %frame1, i64 0, i64 %tmp_6
+  %frame1_addr_2 = getelementptr inbounds [76800 x i8]* %frame1, i64 0, i64 %tmp_6
   %val1 = load i8* %frame1_addr_2, align 1
-  %frame2_addr_1 = getelementptr inbounds [103680 x i8]* %frame2, i64 0, i64 %tmp_6
+  %frame2_addr_1 = getelementptr inbounds [76800 x i8]* %frame2, i64 0, i64 %tmp_6
   %val2 = load i8* %frame2_addr_1, align 1
-  %frame3_addr_1 = getelementptr inbounds [103680 x i8]* %frame3, i64 0, i64 %tmp_6
+  %frame3_addr_1 = getelementptr inbounds [76800 x i8]* %frame3, i64 0, i64 %tmp_6
   %val3 = load i8* %frame3_addr_1, align 1
-  %frame2_addr_2 = getelementptr inbounds [103680 x i8]* %frame2, i64 0, i64 %tmp_6
+  %frame2_addr_2 = getelementptr inbounds [76800 x i8]* %frame2, i64 0, i64 %tmp_6
   store i8 %val1, i8* %frame2_addr_2, align 1
-  %frame3_addr_2 = getelementptr inbounds [103680 x i8]* %frame3, i64 0, i64 %tmp_6
+  %frame3_addr_2 = getelementptr inbounds [76800 x i8]* %frame3, i64 0, i64 %tmp_6
   store i8 %val2, i8* %frame3_addr_2, align 1
   %tmp_7 = zext i8 %val1 to i32
   %tmp_7_cast = zext i8 %val1 to i9
   %tmp_8 = sitofp i32 %tmp_7 to float
-  %tmp_9 = fmul float %tmp_8, 5.000000e-01
+  %tmp_9 = fmul float %tmp_8, 0x3FB99999A0000000
   %tmp_10 = zext i8 %val2 to i32
   %tmp_11 = sitofp i32 %tmp_10 to float
-  %tmp_12 = fmul float %tmp_11, 0x3FD3333340000000
+  %tmp_12 = fmul float %tmp_11, 0x3FC99999A0000000
   %tmp_13 = fadd float %tmp_9, %tmp_12
   %tmp_14 = zext i8 %val3 to i32
   %tmp_15 = sitofp i32 %tmp_14 to float
-  %tmp_16 = fmul float %tmp_15, 0x3FC99999A0000000
+  %tmp_16 = fmul float %tmp_15, 0x3FE6666660000000
   %x_assign = fadd float %tmp_13, %tmp_16
   %p_Val2_s = bitcast float %x_assign to i32
   %loc_V = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %p_Val2_s, i32 23, i32 30) nounwind
@@ -164,9 +164,9 @@ _ifconv:                                          ; preds = %.preheader
   %neg = sub i9 0, %tmp_19
   %abscond = icmp sgt i9 %tmp_19, 0
   %abs = select i1 %abscond, i9 %tmp_19, i9 %neg
-  %not_tmp_s = icmp sgt i9 %abs, 14
+  %not_tmp_s = icmp sgt i9 %abs, 29
   %p_cast = select i1 %not_tmp_s, i8 -1, i8 0
-  %out_addr_1 = getelementptr inbounds [103680 x i8]* %out, i64 0, i64 %tmp_6
+  %out_addr_1 = getelementptr inbounds [76800 x i8]* %out, i64 0, i64 %tmp_6
   store i8 %p_cast, i8* %out_addr_1, align 1
   %empty_12 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str1812, i32 %tmp_5) nounwind
   br label %.preheader
@@ -177,13 +177,13 @@ _ifconv:                                          ; preds = %.preheader
   call void (...)* @_ssdm_op_SpecProtocol(i32 1, [1 x i8]* @p_str1806) nounwind
   %tmp_18 = sext i32 %frame_out_read to i64
   %gmem_addr_2 = getelementptr i8* %gmem, i64 %tmp_18
-  %p_wr_req = call i1 @_ssdm_op_WriteReq.m_axi.i8P(i8* %gmem_addr_2, i32 103680)
+  %p_wr_req = call i1 @_ssdm_op_WriteReq.m_axi.i8P(i8* %gmem_addr_2, i32 76800)
   br label %burst.wr.header
 
 burst.wr.header:                                  ; preds = %burst.wr.body, %.loopexit
   %indvar1 = phi i17 [ 0, %.loopexit ], [ %indvar_next1, %burst.wr.body ]
-  %exitcond2 = icmp eq i17 %indvar1, -27392
-  %empty_14 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 103680, i64 103680, i64 103680) nounwind
+  %exitcond2 = icmp eq i17 %indvar1, -54272
+  %empty_14 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800) nounwind
   %indvar_next1 = add i17 %indvar1, 1
   br i1 %exitcond2, label %burst.wr.end, label %burst.wr.body
 
@@ -192,7 +192,7 @@ burst.wr.body:                                    ; preds = %burst.wr.header
   call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, i32 0, [1 x i8]* @p_str2)
   %empty_15 = call i32 (...)* @_ssdm_op_SpecLoopName([18 x i8]* @memcpy_OC_frame_out_OC_str) nounwind
   %tmp_21 = zext i17 %indvar1 to i64
-  %out_addr_2 = getelementptr [103680 x i8]* %out, i64 0, i64 %tmp_21
+  %out_addr_2 = getelementptr [76800 x i8]* %out, i64 0, i64 %tmp_21
   %out_load = load i8* %out_addr_2, align 1
   %gmem_addr_4 = getelementptr i8* %gmem, i64 %tmp_18
   call void @_ssdm_op_Write.m_axi.i8P(i8* %gmem_addr_4, i8 %out_load, i1 true)
@@ -362,7 +362,7 @@ declare void @_GLOBAL__I_a() nounwind section ".text.startup"
 !12 = metadata !{metadata !13, metadata !16}
 !13 = metadata !{metadata !"frame_in", metadata !14, metadata !"unsigned char", i32 0, i32 7}
 !14 = metadata !{metadata !15}
-!15 = metadata !{i32 0, i32 103679, i32 1}
+!15 = metadata !{i32 0, i32 76799, i32 1}
 !16 = metadata !{metadata !"frame_out", metadata !14, metadata !"unsigned char", i32 0, i32 7}
 !17 = metadata !{metadata !18}
 !18 = metadata !{i32 0, i32 0, metadata !19}

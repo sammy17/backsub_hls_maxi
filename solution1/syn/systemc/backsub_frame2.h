@@ -22,7 +22,7 @@ using namespace sc_dt;
 struct backsub_frame2_ram : public sc_core::sc_module {
 
   static const unsigned DataWidth = 8;
-  static const unsigned AddressRange = 103680;
+  static const unsigned AddressRange = 76800;
   static const unsigned AddressWidth = 17;
 
 //latency = 1
@@ -102,7 +102,7 @@ SC_MODULE(backsub_frame2) {
 
 
 static const unsigned DataWidth = 8;
-static const unsigned AddressRange = 103680;
+static const unsigned AddressRange = 76800;
 static const unsigned AddressWidth = 17;
 
 sc_core::sc_in <sc_lv<AddressWidth> > address0;

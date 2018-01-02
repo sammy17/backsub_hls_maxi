@@ -15,7 +15,7 @@ entity backsub_frame1_ram is
             mem_type    : string := "block"; 
             dwidth     : integer := 8; 
             awidth     : integer := 17; 
-            mem_size    : integer := 103680
+            mem_size    : integer := 76800
     ); 
     port (
           addr0     : in std_logic_vector(awidth-1 downto 0); 
@@ -77,7 +77,7 @@ use IEEE.std_logic_1164.all;
 entity backsub_frame1 is
     generic (
         DataWidth : INTEGER := 8;
-        AddressRange : INTEGER := 103680;
+        AddressRange : INTEGER := 76800;
         AddressWidth : INTEGER := 17);
     port (
         reset : IN STD_LOGIC;

@@ -414,7 +414,7 @@ always @(reset or posedge clk) begin
         write_start_count <= 0;
     end
     else begin
-        if (write_start_count >= 33) begin
+        if (write_start_count >= 94) begin
             write_start_run_flag <= 0; 
         end
         else if (TRAN_CRTL_BUS_write_start_in === 1) begin

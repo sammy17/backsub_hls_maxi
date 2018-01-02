@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'backsub'" level="0">
-<item name = "Date">Sun Oct 15 01:54:56 2017
+<item name = "Date">Wed Dec 27 16:10:19 2017
 </item>
 <item name = "Version">2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)</item>
 <item name = "Project">backsub_hls_maxi</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">311059, 311082, 311060, 311083, none</column>
+<column name="">230419, 230442, 230420, 230443, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,10 +35,10 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- memcpy..frame_in">103681, 103681, 3, 1, 1, 103680, yes</column>
-<column name="- Loop 2">103680, 103680, 2, 1, 1, 103680, yes</column>
-<column name="- Loop 3">103703, 103703, 25, 1, 1, 103680, yes</column>
-<column name="- memcpy.frame_out.">103681, 103681, 3, 1, 1, 103680, yes</column>
+<column name="- memcpy..frame_in">76801, 76801, 3, 1, 1, 76800, yes</column>
+<column name="- Loop 2">76800, 76800, 2, 1, 1, 76800, yes</column>
+<column name="- Loop 3">76823, 76823, 25, 1, 1, 76800, yes</column>
+<column name="- memcpy.frame_out.">76801, 76801, 3, 1, 1, 76800, yes</column>
 </table>
 </item>
 </section>

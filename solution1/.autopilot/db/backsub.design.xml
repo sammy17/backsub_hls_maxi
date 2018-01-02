@@ -16,38 +16,38 @@
 <EstimatedClockPeriod>8.75</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
-<Best-caseLatency>311059</Best-caseLatency>
-<Average-caseLatency>311071</Average-caseLatency>
-<Worst-caseLatency>311082</Worst-caseLatency>
-<PipelineInitiationInterval>311060 ~ 311083</PipelineInitiationInterval>
+<Best-caseLatency>230419</Best-caseLatency>
+<Average-caseLatency>230431</Average-caseLatency>
+<Worst-caseLatency>230442</Worst-caseLatency>
+<PipelineInitiationInterval>230420 ~ 230443</PipelineInitiationInterval>
 <PipelineType>none</PipelineType>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <memcpy..frame_in>
 <Name>memcpy..frame_in</Name>
-<TripCount>103680</TripCount>
-<Latency>103681</Latency>
+<TripCount>76800</TripCount>
+<Latency>76801</Latency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>3</PipelineDepth>
 </memcpy..frame_in>
 <Loop2>
 <Name>Loop 2</Name>
-<TripCount>103680</TripCount>
-<Latency>103680</Latency>
+<TripCount>76800</TripCount>
+<Latency>76800</Latency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>2</PipelineDepth>
 </Loop2>
 <Loop3>
 <Name>Loop 3</Name>
-<TripCount>103680</TripCount>
-<Latency>103703</Latency>
+<TripCount>76800</TripCount>
+<Latency>76823</Latency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>25</PipelineDepth>
 </Loop3>
 <memcpy.frame_out.>
 <Name>memcpy.frame_out.</Name>
-<TripCount>103680</TripCount>
-<Latency>103681</Latency>
+<TripCount>76800</TripCount>
+<Latency>76801</Latency>
 <PipelineII>1</PipelineII>
 <PipelineDepth>3</PipelineDepth>
 </memcpy.frame_out.>

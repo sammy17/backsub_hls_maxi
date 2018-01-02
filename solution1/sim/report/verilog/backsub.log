@@ -1,8 +1,8 @@
 @I [SIM-47] Using XSIM for RTL simulation.
 @I [SIM-14] Instrumenting C test bench ...
-@W [SIM-369] AXI_master port 'frame_in' has a depth of '103680'. Insufficient depth may result in simulation mismatch or freeze.
-@W [SIM-369] AXI_master port 'frame_out' has a depth of '103680'. Insufficient depth may result in simulation mismatch or freeze.
-   Build using "/opt/Xilinx/Vivado_HLS/2015.4/lnx64/tools/gcc/bin/g++"
+@W [SIM-369] AXI_master port 'frame_in' has a depth of '76800'. Insufficient depth may result in simulation mismatch or freeze.
+@W [SIM-369] AXI_master port 'frame_out' has a depth of '76800'. Insufficient depth may result in simulation mismatch or freeze.
+   Build using "/home/zynq-fyp/Xilinx/Vivado_HLS/2015.4/lnx64/tools/gcc/bin/g++"
    Compiling core.cpp_pre.cpp.tb.cpp
    Compiling apatb_backsub.cpp
    Compiling test.cpp_pre.cpp.tb.cpp

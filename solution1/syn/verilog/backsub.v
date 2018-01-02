@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="backsub,hls_ip_2015_4,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=8.750000,HLS_SYN_LAT=311071,HLS_SYN_TPT=none,HLS_SYN_MEM=256,HLS_SYN_DSP=13,HLS_SYN_FF=3282,HLS_SYN_LUT=5048}" *)
+(* CORE_GENERATION_INFO="backsub,hls_ip_2015_4,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=8.750000,HLS_SYN_LAT=230431,HLS_SYN_TPT=none,HLS_SYN_MEM=256,HLS_SYN_DSP=13,HLS_SYN_FF=3282,HLS_SYN_LUT=5048}" *)
 
 module backsub (
         ap_clk,
@@ -147,22 +147,22 @@ parameter    ap_const_lv32_E = 32'b1110;
 parameter    ap_const_lv32_7 = 32'b111;
 parameter    ap_const_lv32_9 = 32'b1001;
 parameter    ap_const_lv17_0 = 17'b00000000000000000;
-parameter    ap_const_lv32_19500 = 32'b11001010100000000;
+parameter    ap_const_lv32_12C00 = 32'b10010110000000000;
 parameter    ap_const_lv3_0 = 3'b000;
 parameter    ap_const_lv2_0 = 2'b00;
 parameter    ap_const_lv4_0 = 4'b0000;
 parameter    ap_const_lv32_12 = 32'b10010;
-parameter    ap_const_lv32_3F000000 = 32'b111111000000000000000000000000;
-parameter    ap_const_lv32_3E99999A = 32'b111110100110011001100110011010;
+parameter    ap_const_lv32_3DCCCCCD = 32'b111101110011001100110011001101;
 parameter    ap_const_lv32_3E4CCCCD = 32'b111110010011001100110011001101;
-parameter    ap_const_lv17_19500 = 17'b11001010100000000;
+parameter    ap_const_lv32_3F333333 = 32'b111111001100110011001100110011;
+parameter    ap_const_lv17_12C00 = 17'b10010110000000000;
 parameter    ap_const_lv17_1 = 17'b1;
 parameter    ap_const_lv32_17 = 32'b10111;
 parameter    ap_const_lv32_1E = 32'b11110;
 parameter    ap_const_lv9_181 = 9'b110000001;
 parameter    ap_const_lv8_7F = 8'b1111111;
 parameter    ap_const_lv9_0 = 9'b000000000;
-parameter    ap_const_lv9_E = 9'b1110;
+parameter    ap_const_lv9_1D = 9'b11101;
 parameter    ap_const_lv8_FF = 8'b11111111;
 parameter    ap_const_lv8_0 = 8'b00000000;
 parameter    C_S_AXI_AXILITES_WSTRB_WIDTH = (C_S_AXI_AXILITES_DATA_WIDTH / ap_const_int64_8);
@@ -750,7 +750,7 @@ backsub_gmem_m_axi_U(
 
 backsub_frame1 #(
     .DataWidth( 8 ),
-    .AddressRange( 103680 ),
+    .AddressRange( 76800 ),
     .AddressWidth( 17 ))
 frame1_U(
     .clk( ap_clk ),
@@ -764,7 +764,7 @@ frame1_U(
 
 backsub_frame2 #(
     .DataWidth( 8 ),
-    .AddressRange( 103680 ),
+    .AddressRange( 76800 ),
     .AddressWidth( 17 ))
 frame2_U(
     .clk( ap_clk ),
@@ -782,7 +782,7 @@ frame2_U(
 
 backsub_frame2 #(
     .DataWidth( 8 ),
-    .AddressRange( 103680 ),
+    .AddressRange( 76800 ),
     .AddressWidth( 17 ))
 frame3_U(
     .clk( ap_clk ),
@@ -800,7 +800,7 @@ frame3_U(
 
 backsub_frame1 #(
     .DataWidth( 8 ),
-    .AddressRange( 103680 ),
+    .AddressRange( 76800 ),
     .AddressWidth( 17 ))
 out_U(
     .clk( ap_clk ),
@@ -852,7 +852,7 @@ backsub_fmul_32ns_32ns_32_4_max_dsp_U3(
     .clk( ap_clk ),
     .reset( ap_rst_n_inv ),
     .din0( tmp_8_reg_736 ),
-    .din1( ap_const_lv32_3F000000 ),
+    .din1( ap_const_lv32_3DCCCCCD ),
     .ce( grp_fu_349_ce ),
     .dout( grp_fu_349_p2 )
 );
@@ -867,7 +867,7 @@ backsub_fmul_32ns_32ns_32_4_max_dsp_U4(
     .clk( ap_clk ),
     .reset( ap_rst_n_inv ),
     .din0( tmp_11_reg_741 ),
-    .din1( ap_const_lv32_3E99999A ),
+    .din1( ap_const_lv32_3E4CCCCD ),
     .ce( grp_fu_354_ce ),
     .dout( grp_fu_354_p2 )
 );
@@ -882,7 +882,7 @@ backsub_fmul_32ns_32ns_32_4_max_dsp_U5(
     .clk( ap_clk ),
     .reset( ap_rst_n_inv ),
     .din0( tmp_15_reg_761 ),
-    .din1( ap_const_lv32_3E4CCCCD ),
+    .din1( ap_const_lv32_3F333333 ),
     .ce( grp_fu_359_ce ),
     .dout( grp_fu_359_p2 )
 );
@@ -2089,13 +2089,13 @@ assign backsub_CRTL_BUS_s_axi_U_ap_dummy_ce = ap_const_logic_1;
 
 assign backsub_gmem_m_axi_U_ap_dummy_ce = ap_const_logic_1;
 
-assign exitcond1_fu_600_p2 = (i_reg_319 == ap_const_lv17_19500? 1'b1: 1'b0);
+assign exitcond1_fu_600_p2 = (i_reg_319 == ap_const_lv17_12C00? 1'b1: 1'b0);
 
-assign exitcond2_fu_621_p2 = (indvar1_reg_330 == ap_const_lv17_19500? 1'b1: 1'b0);
+assign exitcond2_fu_621_p2 = (indvar1_reg_330 == ap_const_lv17_12C00? 1'b1: 1'b0);
 
-assign exitcond8_fu_390_p2 = (indvar_phi_fu_300_p4 == ap_const_lv17_19500? 1'b1: 1'b0);
+assign exitcond8_fu_390_p2 = (indvar_phi_fu_300_p4 == ap_const_lv17_12C00? 1'b1: 1'b0);
 
-assign exitcond_fu_407_p2 = (i1_reg_308 == ap_const_lv17_19500? 1'b1: 1'b0);
+assign exitcond_fu_407_p2 = (i1_reg_308 == ap_const_lv17_12C00? 1'b1: 1'b0);
 
 assign frame1_d0 = gmem_addr_1_read_reg_671;
 
@@ -2119,7 +2119,7 @@ assign gmem_ARCACHE = ap_const_lv4_0;
 
 assign gmem_ARID = ap_const_lv1_0;
 
-assign gmem_ARLEN = ap_const_lv32_19500;
+assign gmem_ARLEN = ap_const_lv32_12C00;
 
 assign gmem_ARLOCK = ap_const_lv2_0;
 
@@ -2141,7 +2141,7 @@ assign gmem_AWCACHE = ap_const_lv4_0;
 
 assign gmem_AWID = ap_const_lv1_0;
 
-assign gmem_AWLEN = ap_const_lv32_19500;
+assign gmem_AWLEN = ap_const_lv32_12C00;
 
 assign gmem_AWLOCK = ap_const_lv2_0;
 
@@ -2203,7 +2203,7 @@ assign loc_V_1_fu_451_p1 = p_Val2_s_fu_437_p1[22:0];
 
 assign neg_fu_566_p2 = (ap_const_lv9_0 - tmp_19_fu_560_p2);
 
-assign not_tmp_s_fu_586_p2 = ($signed(abs_fu_578_p3) > $signed(9'b1110)? 1'b1: 1'b0);
+assign not_tmp_s_fu_586_p2 = ($signed(abs_fu_578_p3) > $signed(9'b11101)? 1'b1: 1'b0);
 
 assign p_Result_s_fu_455_p3 = {{ap_const_lv1_1}, {loc_V_1_reg_782}};
 

@@ -217,14 +217,14 @@
 						<id>12</id>
 						<name>frame1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>17</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -258,14 +258,14 @@
 						<id>13</id>
 						<name>frame2</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>18</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -299,14 +299,14 @@
 						<id>14</id>
 						<name>frame3</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>19</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -340,14 +340,14 @@
 						<id>15</id>
 						<name>out</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>20</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -381,14 +381,14 @@
 						<id>24</id>
 						<name>tmp_17</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -422,14 +422,14 @@
 						<id>25</id>
 						<name>gmem_addr</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -464,14 +464,14 @@
 						<id>26</id>
 						<name>p_rd_req</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -649,14 +649,14 @@
 						<id>38</id>
 						<name>tmp_s</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -690,14 +690,14 @@
 						<id>39</id>
 						<name>gmem_addr_1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -732,14 +732,14 @@
 						<id>40</id>
 						<name>gmem_addr_1_read</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -775,14 +775,14 @@
 						<id>41</id>
 						<name>frame1_addr</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -818,14 +818,14 @@
 						<id>42</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>24</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -887,14 +887,14 @@
 						<id>49</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>29</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -960,14 +960,14 @@
 						<id>52</id>
 						<name>exitcond</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>40</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1002,14 +1002,14 @@
 						<id>53</id>
 						<name>i_2</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>40</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1044,14 +1044,14 @@
 						<id>54</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>40</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1087,14 +1087,14 @@
 						<id>59</id>
 						<name>tmp_6</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>42</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1128,14 +1128,14 @@
 						<id>60</id>
 						<name>frame1_addr_2</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>42</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1171,14 +1171,14 @@
 						<id>61</id>
 						<name>val1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>42</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1212,14 +1212,14 @@
 						<id>62</id>
 						<name>frame2_addr_1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1255,14 +1255,14 @@
 						<id>63</id>
 						<name>val2</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1296,14 +1296,14 @@
 						<id>64</id>
 						<name>frame3_addr_1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>44</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1339,14 +1339,14 @@
 						<id>65</id>
 						<name>val3</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>44</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1380,14 +1380,14 @@
 						<id>66</id>
 						<name>frame2_addr_2</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>43</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1423,14 +1423,14 @@
 						<id>67</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>46</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1466,14 +1466,14 @@
 						<id>68</id>
 						<name>frame3_addr_2</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>44</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1509,14 +1509,14 @@
 						<id>69</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>47</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1552,14 +1552,14 @@
 						<id>70</id>
 						<name>tmp_7</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1593,14 +1593,14 @@
 						<id>71</id>
 						<name>tmp_7_cast</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1634,14 +1634,14 @@
 						<id>72</id>
 						<name>tmp_8</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1675,14 +1675,14 @@
 						<id>73</id>
 						<name>tmp_9</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1717,14 +1717,14 @@
 						<id>74</id>
 						<name>tmp_10</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1758,14 +1758,14 @@
 						<id>75</id>
 						<name>tmp_11</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1799,14 +1799,14 @@
 						<id>76</id>
 						<name>tmp_12</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1841,14 +1841,14 @@
 						<id>77</id>
 						<name>tmp_13</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1883,14 +1883,14 @@
 						<id>78</id>
 						<name>tmp_14</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1924,14 +1924,14 @@
 						<id>79</id>
 						<name>tmp_15</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1965,14 +1965,14 @@
 						<id>80</id>
 						<name>tmp_16</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2007,14 +2007,14 @@
 						<id>81</id>
 						<name>x_assign</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>48</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2056,7 +2056,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2125,7 +2125,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2197,7 +2197,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2266,7 +2266,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2337,7 +2337,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2399,7 +2399,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2468,7 +2468,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2538,7 +2538,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2602,7 +2602,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2665,7 +2665,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2727,7 +2727,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2791,7 +2791,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2853,7 +2853,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2915,7 +2915,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2977,7 +2977,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3040,7 +3040,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3103,7 +3103,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3167,7 +3167,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3229,7 +3229,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3294,7 +3294,7 @@
 							<count>2</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3351,14 +3351,14 @@
 						<id>102</id>
 						<name>tmp_18_cast</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3392,14 +3392,14 @@
 						<id>103</id>
 						<name>tmp_19</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3434,14 +3434,14 @@
 						<id>104</id>
 						<name>neg</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3476,14 +3476,14 @@
 						<id>105</id>
 						<name>abscond</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3518,14 +3518,14 @@
 						<id>106</id>
 						<name>abs</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3561,14 +3561,14 @@
 						<id>107</id>
 						<name>not_tmp_s</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3603,14 +3603,14 @@
 						<id>108</id>
 						<name>p_cast</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>49</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3646,14 +3646,14 @@
 						<id>109</id>
 						<name>out_addr_1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>50</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3689,14 +3689,14 @@
 						<id>110</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>50</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3731,14 +3731,14 @@
 						<id>112</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>40</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3802,14 +3802,14 @@
 						<id>115</id>
 						<name>exitcond1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3844,14 +3844,14 @@
 						<id>116</id>
 						<name>i_1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3886,14 +3886,14 @@
 						<id>117</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3929,14 +3929,14 @@
 						<id>122</id>
 						<name>tmp_4</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3970,14 +3970,14 @@
 						<id>123</id>
 						<name>frame1_addr_1</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4013,14 +4013,14 @@
 						<id>124</id>
 						<name>val</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>32</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4054,14 +4054,14 @@
 						<id>125</id>
 						<name>frame2_addr</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>33</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4097,14 +4097,14 @@
 						<id>126</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>33</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4139,14 +4139,14 @@
 						<id>127</id>
 						<name>frame3_addr</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4182,14 +4182,14 @@
 						<id>128</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>34</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4224,14 +4224,14 @@
 						<id>129</id>
 						<name>out_addr</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>35</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4267,14 +4267,14 @@
 						<id>130</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>35</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4309,14 +4309,14 @@
 						<id>132</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>30</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4350,14 +4350,14 @@
 						<id>137</id>
 						<name>tmp_18</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4391,14 +4391,14 @@
 						<id>138</id>
 						<name>gmem_addr_2</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4433,14 +4433,14 @@
 						<id>139</id>
 						<name>p_wr_req</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4618,14 +4618,14 @@
 						<id>151</id>
 						<name>tmp_21</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4659,14 +4659,14 @@
 						<id>152</id>
 						<name>out_addr_2</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4702,14 +4702,14 @@
 						<id>153</id>
 						<name>out_load</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4743,14 +4743,14 @@
 						<id>154</id>
 						<name>gmem_addr_4</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4785,14 +4785,14 @@
 						<id>155</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4857,14 +4857,14 @@
 						<id>159</id>
 						<name>gmem_addr_3</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4899,14 +4899,14 @@
 						<id>160</id>
 						<name>p_wr_resp</name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>60</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4941,14 +4941,14 @@
 						<id>162</id>
 						<name></name>
 						<fileName>backsub_hls_maxi/core.cpp</fileName>
-						<fileDirectory>/home/chathura/HoG_IP</fileDirectory>
+						<fileDirectory>/home/zynq-fyp/Desktop/maxi_latest</fileDirectory>
 						<lineNumber>63</lineNumber>
 						<contextFuncName>backsub</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/chathura/HoG_IP</first>
+								<first>/home/zynq-fyp/Desktop/maxi_latest</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5023,7 +5023,7 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>103680</content>
+				<content>76800</content>
 			</item>
 			<item class_id_reference="16" object_id="_117">
 				<Value>
@@ -5069,7 +5069,7 @@
 					<bitwidth>17</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>103680</content>
+				<content>76800</content>
 			</item>
 			<item class_id_reference="16" object_id="_119">
 				<Value>
@@ -5138,7 +5138,7 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>1</const_type>
-				<content>0.5</content>
+				<content>0.1</content>
 			</item>
 			<item class_id_reference="16" object_id="_122">
 				<Value>
@@ -5161,7 +5161,7 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>1</const_type>
-				<content>0.3</content>
+				<content>0.2</content>
 			</item>
 			<item class_id_reference="16" object_id="_123">
 				<Value>
@@ -5184,7 +5184,7 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>1</const_type>
-				<content>0.2</content>
+				<content>0.7</content>
 			</item>
 			<item class_id_reference="16" object_id="_124">
 				<Value>
@@ -5368,7 +5368,7 @@
 					<bitwidth>9</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>14</content>
+				<content>29</content>
 			</item>
 			<item class_id_reference="16" object_id="_132">
 				<Value>
@@ -7218,7 +7218,7 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>311082</mMinLatency>
+			<mMinLatency>230442</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -7261,9 +7261,9 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>3</mDepth>
-			<mMinTripCount>103680</mMinTripCount>
-			<mMaxTripCount>103680</mMaxTripCount>
-			<mMinLatency>103681</mMinLatency>
+			<mMinTripCount>76800</mMinTripCount>
+			<mMaxTripCount>76800</mMaxTripCount>
+			<mMinLatency>76801</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -7306,9 +7306,9 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>25</mDepth>
-			<mMinTripCount>103680</mMinTripCount>
-			<mMaxTripCount>103680</mMaxTripCount>
-			<mMinLatency>103703</mMinLatency>
+			<mMinTripCount>76800</mMinTripCount>
+			<mMaxTripCount>76800</mMaxTripCount>
+			<mMinLatency>76823</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -7329,9 +7329,9 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>2</mDepth>
-			<mMinTripCount>103680</mMinTripCount>
-			<mMaxTripCount>103680</mMaxTripCount>
-			<mMinLatency>103680</mMinLatency>
+			<mMinTripCount>76800</mMinTripCount>
+			<mMaxTripCount>76800</mMaxTripCount>
+			<mMinLatency>76800</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -7374,9 +7374,9 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>3</mDepth>
-			<mMinTripCount>103680</mMinTripCount>
-			<mMaxTripCount>103680</mMaxTripCount>
-			<mMinLatency>103681</mMinLatency>
+			<mMinTripCount>76800</mMinTripCount>
+			<mMaxTripCount>76800</mMaxTripCount>
+			<mMinLatency>76801</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
@@ -8289,12 +8289,12 @@
 			<pipe_depth>3</pipe_depth>
 		</item>
 		<item class_id_reference="33" object_id="_385">
-			<region_name>memcpy.frame_out.</region_name>
+			<region_name>Loop 3</region_name>
 			<basic_blocks>
 				<count>2</count>
 				<item_version>0</item_version>
-				<item>147</item>
-				<item>158</item>
+				<item>55</item>
+				<item>113</item>
 			</basic_blocks>
 			<nodes>
 				<count>0</count>
@@ -8303,7 +8303,7 @@
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
 			<interval>1</interval>
-			<pipe_depth>3</pipe_depth>
+			<pipe_depth>25</pipe_depth>
 		</item>
 		<item class_id_reference="33" object_id="_386">
 			<region_name>memcopy1</region_name>
@@ -8347,6 +8347,23 @@
 			<pipe_depth>0</pipe_depth>
 		</item>
 		<item class_id_reference="33" object_id="_387">
+			<region_name>memcpy.frame_out.</region_name>
+			<basic_blocks>
+				<count>2</count>
+				<item_version>0</item_version>
+				<item>147</item>
+				<item>158</item>
+			</basic_blocks>
+			<nodes>
+				<count>0</count>
+				<item_version>0</item_version>
+			</nodes>
+			<anchor_node>-1</anchor_node>
+			<region_type>8</region_type>
+			<interval>1</interval>
+			<pipe_depth>3</pipe_depth>
+		</item>
+		<item class_id_reference="33" object_id="_388">
 			<region_name>memcopy2</region_name>
 			<basic_blocks>
 				<count>4</count>
@@ -8389,13 +8406,13 @@
 			<interval>0</interval>
 			<pipe_depth>0</pipe_depth>
 		</item>
-		<item class_id_reference="33" object_id="_388">
-			<region_name>Loop 3</region_name>
+		<item class_id_reference="33" object_id="_389">
+			<region_name>Loop 2</region_name>
 			<basic_blocks>
 				<count>2</count>
 				<item_version>0</item_version>
-				<item>55</item>
-				<item>113</item>
+				<item>118</item>
+				<item>133</item>
 			</basic_blocks>
 			<nodes>
 				<count>0</count>
@@ -8404,9 +8421,9 @@
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
 			<interval>1</interval>
-			<pipe_depth>25</pipe_depth>
+			<pipe_depth>2</pipe_depth>
 		</item>
-		<item class_id_reference="33" object_id="_389">
+		<item class_id_reference="33" object_id="_390">
 			<region_name>loop1</region_name>
 			<basic_blocks>
 				<count>6</count>
@@ -8415,8 +8432,8 @@
 				<item>141</item>
 				<item>118</item>
 				<item>55</item>
-				<item>113</item>
 				<item>133</item>
+				<item>113</item>
 			</basic_blocks>
 			<nodes>
 				<count>83</count>
@@ -8433,6 +8450,20 @@
 				<item>52</item>
 				<item>53</item>
 				<item>54</item>
+				<item>119</item>
+				<item>120</item>
+				<item>121</item>
+				<item>122</item>
+				<item>123</item>
+				<item>124</item>
+				<item>125</item>
+				<item>126</item>
+				<item>127</item>
+				<item>128</item>
+				<item>129</item>
+				<item>130</item>
+				<item>131</item>
+				<item>132</item>
 				<item>56</item>
 				<item>57</item>
 				<item>58</item>
@@ -8490,42 +8521,11 @@
 				<item>110</item>
 				<item>111</item>
 				<item>112</item>
-				<item>119</item>
-				<item>120</item>
-				<item>121</item>
-				<item>122</item>
-				<item>123</item>
-				<item>124</item>
-				<item>125</item>
-				<item>126</item>
-				<item>127</item>
-				<item>128</item>
-				<item>129</item>
-				<item>130</item>
-				<item>131</item>
-				<item>132</item>
 			</nodes>
 			<anchor_node>47</anchor_node>
 			<region_type>1</region_type>
 			<interval>0</interval>
 			<pipe_depth>0</pipe_depth>
-		</item>
-		<item class_id_reference="33" object_id="_390">
-			<region_name>Loop 2</region_name>
-			<basic_blocks>
-				<count>2</count>
-				<item_version>0</item_version>
-				<item>118</item>
-				<item>133</item>
-			</basic_blocks>
-			<nodes>
-				<count>0</count>
-				<item_version>0</item_version>
-			</nodes>
-			<anchor_node>-1</anchor_node>
-			<region_type>8</region_type>
-			<interval>1</interval>
-			<pipe_depth>2</pipe_depth>
 		</item>
 	</regions>
 	<dp_fu_nodes class_id="34" tracking_level="0" version="0">

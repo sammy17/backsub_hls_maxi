@@ -386,7 +386,7 @@
 
 <node id="12" bw="8" op_0_bw="64">
 <![CDATA[
-:7  %frame1 = alloca [103680 x i8], align 16
+:7  %frame1 = alloca [76800 x i8], align 16
 
 ]]></node>
 <StgValue><ssdm name="frame1"/></StgValue>
@@ -401,7 +401,7 @@
 
 <node id="13" bw="8" op_0_bw="64">
 <![CDATA[
-:8  %frame2 = alloca [103680 x i8], align 16
+:8  %frame2 = alloca [76800 x i8], align 16
 
 ]]></node>
 <StgValue><ssdm name="frame2"/></StgValue>
@@ -416,7 +416,7 @@
 
 <node id="14" bw="8" op_0_bw="64">
 <![CDATA[
-:9  %frame3 = alloca [103680 x i8], align 16
+:9  %frame3 = alloca [76800 x i8], align 16
 
 ]]></node>
 <StgValue><ssdm name="frame3"/></StgValue>
@@ -431,7 +431,7 @@
 
 <node id="15" bw="8" op_0_bw="64">
 <![CDATA[
-:10  %out = alloca [103680 x i8], align 16
+:10  %out = alloca [76800 x i8], align 16
 
 ]]></node>
 <StgValue><ssdm name="out"/></StgValue>
@@ -479,7 +479,7 @@
 
 <node id="26" bw="1" op_0_bw="1" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 103680)
+:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 76800)
 
 ]]></node>
 <StgValue><ssdm name="p_rd_req"/></StgValue>
@@ -497,7 +497,7 @@
 
 <node id="26" bw="1" op_0_bw="1" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 103680)
+:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 76800)
 
 ]]></node>
 <StgValue><ssdm name="p_rd_req"/></StgValue>
@@ -515,7 +515,7 @@
 
 <node id="26" bw="1" op_0_bw="1" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 103680)
+:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 76800)
 
 ]]></node>
 <StgValue><ssdm name="p_rd_req"/></StgValue>
@@ -533,7 +533,7 @@
 
 <node id="26" bw="1" op_0_bw="1" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 103680)
+:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 76800)
 
 ]]></node>
 <StgValue><ssdm name="p_rd_req"/></StgValue>
@@ -551,7 +551,7 @@
 
 <node id="26" bw="1" op_0_bw="1" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 103680)
+:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 76800)
 
 ]]></node>
 <StgValue><ssdm name="p_rd_req"/></StgValue>
@@ -569,7 +569,7 @@
 
 <node id="26" bw="1" op_0_bw="1" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 103680)
+:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 76800)
 
 ]]></node>
 <StgValue><ssdm name="p_rd_req"/></StgValue>
@@ -662,7 +662,7 @@
 
 <node id="17" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="32" op_7_bw="8" op_8_bw="8" op_9_bw="8" op_10_bw="8">
 <![CDATA[
-:12  call void (...)* @_ssdm_op_SpecInterface(i32 %frame_out, [10 x i8]* @mode1, i32 0, i32 0, i32 0, i32 103680, [1 x i8]* @bundle2, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
+:12  call void (...)* @_ssdm_op_SpecInterface(i32 %frame_out, [10 x i8]* @mode1, i32 0, i32 0, i32 0, i32 76800, [1 x i8]* @bundle2, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
 
 ]]></node>
 <StgValue><ssdm name=""/></StgValue>
@@ -677,7 +677,7 @@
 
 <node id="18" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="32" op_7_bw="8" op_8_bw="8" op_9_bw="8" op_10_bw="8">
 <![CDATA[
-:13  call void (...)* @_ssdm_op_SpecInterface(i8* %gmem, [6 x i8]* @p_str1807, i32 0, i32 0, i32 0, i32 103680, [1 x i8]* @p_str1806, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
+:13  call void (...)* @_ssdm_op_SpecInterface(i8* %gmem, [6 x i8]* @p_str1807, i32 0, i32 0, i32 0, i32 76800, [1 x i8]* @p_str1806, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
 
 ]]></node>
 <StgValue><ssdm name=""/></StgValue>
@@ -692,7 +692,7 @@
 
 <node id="19" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="32" op_7_bw="8" op_8_bw="8" op_9_bw="8" op_10_bw="8">
 <![CDATA[
-:14  call void (...)* @_ssdm_op_SpecInterface(i32 %frame_in, [10 x i8]* @mode, i32 0, i32 0, i32 0, i32 103680, [1 x i8]* @bundle, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
+:14  call void (...)* @_ssdm_op_SpecInterface(i32 %frame_in, [10 x i8]* @mode, i32 0, i32 0, i32 0, i32 76800, [1 x i8]* @bundle, [6 x i8]* @p_str1808, [1 x i8]* @p_str1806, [1 x i8]* @p_str1806) nounwind
 
 ]]></node>
 <StgValue><ssdm name=""/></StgValue>
@@ -767,7 +767,7 @@
 
 <node id="26" bw="1" op_0_bw="1" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 103680)
+:21  %p_rd_req = call i1 @_ssdm_op_ReadReq.m_axi.i8P(i8* %gmem_addr, i32 76800)
 
 ]]></node>
 <StgValue><ssdm name="p_rd_req"/></StgValue>
@@ -815,7 +815,7 @@ burst.rd.header:0  %indvar = phi i17 [ 0, %0 ], [ %indvar_next, %burst.rd.body ]
 
 <node id="30" bw="1" op_0_bw="17" op_1_bw="17">
 <![CDATA[
-burst.rd.header:1  %exitcond8 = icmp eq i17 %indvar, -27392
+burst.rd.header:1  %exitcond8 = icmp eq i17 %indvar, -54272
 
 ]]></node>
 <StgValue><ssdm name="exitcond8"/></StgValue>
@@ -830,7 +830,7 @@ burst.rd.header:1  %exitcond8 = icmp eq i17 %indvar, -27392
 
 <node id="31" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-burst.rd.header:2  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 103680, i64 103680, i64 103680) nounwind
+burst.rd.header:2  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800) nounwind
 
 ]]></node>
 <StgValue><ssdm name="empty"/></StgValue>
@@ -978,7 +978,7 @@ burst.rd.body:3  %tmp_s = zext i17 %indvar to i64
 
 <node id="41" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-burst.rd.body:6  %frame1_addr = getelementptr [103680 x i8]* %frame1, i64 0, i64 %tmp_s
+burst.rd.body:6  %frame1_addr = getelementptr [76800 x i8]* %frame1, i64 0, i64 %tmp_s
 
 ]]></node>
 <StgValue><ssdm name="frame1_addr"/></StgValue>
@@ -1122,7 +1122,7 @@ burst.rd.end:3  br i1 %init_read, label %.preheader2, label %.preheader
 
 <node id="52" bw="1" op_0_bw="17" op_1_bw="17">
 <![CDATA[
-.preheader:1  %exitcond = icmp eq i17 %i1, -27392
+.preheader:1  %exitcond = icmp eq i17 %i1, -54272
 
 ]]></node>
 <StgValue><ssdm name="exitcond"/></StgValue>
@@ -1184,7 +1184,7 @@ _ifconv:3  %tmp_6 = zext i17 %i1 to i64
 
 <node id="60" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-_ifconv:4  %frame1_addr_2 = getelementptr inbounds [103680 x i8]* %frame1, i64 0, i64 %tmp_6
+_ifconv:4  %frame1_addr_2 = getelementptr inbounds [76800 x i8]* %frame1, i64 0, i64 %tmp_6
 
 ]]></node>
 <StgValue><ssdm name="frame1_addr_2"/></StgValue>
@@ -1216,7 +1216,7 @@ _ifconv:5  %val1 = load i8* %frame1_addr_2, align 1
 
 <node id="62" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-_ifconv:6  %frame2_addr_1 = getelementptr inbounds [103680 x i8]* %frame2, i64 0, i64 %tmp_6
+_ifconv:6  %frame2_addr_1 = getelementptr inbounds [76800 x i8]* %frame2, i64 0, i64 %tmp_6
 
 ]]></node>
 <StgValue><ssdm name="frame2_addr_1"/></StgValue>
@@ -1423,7 +1423,7 @@ _ifconv:19  %tmp_11 = sitofp i32 %tmp_10 to float
 
 <node id="64" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-_ifconv:8  %frame3_addr_1 = getelementptr inbounds [103680 x i8]* %frame3, i64 0, i64 %tmp_6
+_ifconv:8  %frame3_addr_1 = getelementptr inbounds [76800 x i8]* %frame3, i64 0, i64 %tmp_6
 
 ]]></node>
 <StgValue><ssdm name="frame3_addr_1"/></StgValue>
@@ -1506,7 +1506,7 @@ _ifconv:9  %val3 = load i8* %frame3_addr_1, align 1
 
 <node id="68" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-_ifconv:12  %frame3_addr_2 = getelementptr inbounds [103680 x i8]* %frame3, i64 0, i64 %tmp_6
+_ifconv:12  %frame3_addr_2 = getelementptr inbounds [76800 x i8]* %frame3, i64 0, i64 %tmp_6
 
 ]]></node>
 <StgValue><ssdm name="frame3_addr_2"/></StgValue>
@@ -1640,7 +1640,7 @@ _ifconv:23  %tmp_15 = sitofp i32 %tmp_14 to float
 
 <node id="73" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:17  %tmp_9 = fmul float %tmp_8, 5.000000e-01
+_ifconv:17  %tmp_9 = fmul float %tmp_8, 0x3FB99999A0000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_9"/></StgValue>
@@ -1656,7 +1656,7 @@ _ifconv:17  %tmp_9 = fmul float %tmp_8, 5.000000e-01
 
 <node id="76" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:20  %tmp_12 = fmul float %tmp_11, 0x3FD3333340000000
+_ifconv:20  %tmp_12 = fmul float %tmp_11, 0x3FC99999A0000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_12"/></StgValue>
@@ -1691,7 +1691,7 @@ _ifconv:23  %tmp_15 = sitofp i32 %tmp_14 to float
 
 <node id="73" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:17  %tmp_9 = fmul float %tmp_8, 5.000000e-01
+_ifconv:17  %tmp_9 = fmul float %tmp_8, 0x3FB99999A0000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_9"/></StgValue>
@@ -1707,7 +1707,7 @@ _ifconv:17  %tmp_9 = fmul float %tmp_8, 5.000000e-01
 
 <node id="76" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:20  %tmp_12 = fmul float %tmp_11, 0x3FD3333340000000
+_ifconv:20  %tmp_12 = fmul float %tmp_11, 0x3FC99999A0000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_12"/></StgValue>
@@ -1742,7 +1742,7 @@ _ifconv:23  %tmp_15 = sitofp i32 %tmp_14 to float
 
 <node id="73" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:17  %tmp_9 = fmul float %tmp_8, 5.000000e-01
+_ifconv:17  %tmp_9 = fmul float %tmp_8, 0x3FB99999A0000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_9"/></StgValue>
@@ -1758,7 +1758,7 @@ _ifconv:17  %tmp_9 = fmul float %tmp_8, 5.000000e-01
 
 <node id="76" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:20  %tmp_12 = fmul float %tmp_11, 0x3FD3333340000000
+_ifconv:20  %tmp_12 = fmul float %tmp_11, 0x3FC99999A0000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_12"/></StgValue>
@@ -1793,7 +1793,7 @@ _ifconv:23  %tmp_15 = sitofp i32 %tmp_14 to float
 
 <node id="73" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:17  %tmp_9 = fmul float %tmp_8, 5.000000e-01
+_ifconv:17  %tmp_9 = fmul float %tmp_8, 0x3FB99999A0000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_9"/></StgValue>
@@ -1809,7 +1809,7 @@ _ifconv:17  %tmp_9 = fmul float %tmp_8, 5.000000e-01
 
 <node id="76" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:20  %tmp_12 = fmul float %tmp_11, 0x3FD3333340000000
+_ifconv:20  %tmp_12 = fmul float %tmp_11, 0x3FC99999A0000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_12"/></StgValue>
@@ -1895,7 +1895,7 @@ _ifconv:21  %tmp_13 = fadd float %tmp_9, %tmp_12
 
 <node id="80" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:24  %tmp_16 = fmul float %tmp_15, 0x3FC99999A0000000
+_ifconv:24  %tmp_16 = fmul float %tmp_15, 0x3FE6666660000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_16"/></StgValue>
@@ -1930,7 +1930,7 @@ _ifconv:21  %tmp_13 = fadd float %tmp_9, %tmp_12
 
 <node id="80" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:24  %tmp_16 = fmul float %tmp_15, 0x3FC99999A0000000
+_ifconv:24  %tmp_16 = fmul float %tmp_15, 0x3FE6666660000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_16"/></StgValue>
@@ -1965,7 +1965,7 @@ _ifconv:21  %tmp_13 = fadd float %tmp_9, %tmp_12
 
 <node id="80" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:24  %tmp_16 = fmul float %tmp_15, 0x3FC99999A0000000
+_ifconv:24  %tmp_16 = fmul float %tmp_15, 0x3FE6666660000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_16"/></StgValue>
@@ -2000,7 +2000,7 @@ _ifconv:21  %tmp_13 = fadd float %tmp_9, %tmp_12
 
 <node id="80" bw="32" op_0_bw="32" op_1_bw="32">
 <![CDATA[
-_ifconv:24  %tmp_16 = fmul float %tmp_15, 0x3FC99999A0000000
+_ifconv:24  %tmp_16 = fmul float %tmp_15, 0x3FE6666660000000
 
 ]]></node>
 <StgValue><ssdm name="tmp_16"/></StgValue>
@@ -2437,7 +2437,7 @@ _ifconv:45  %result_V = select i1 %isNeg, i8 %tmp_20, i8 %tmp_22
 
 <node id="66" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-_ifconv:10  %frame2_addr_2 = getelementptr inbounds [103680 x i8]* %frame2, i64 0, i64 %tmp_6
+_ifconv:10  %frame2_addr_2 = getelementptr inbounds [76800 x i8]* %frame2, i64 0, i64 %tmp_6
 
 ]]></node>
 <StgValue><ssdm name="frame2_addr_2"/></StgValue>
@@ -2565,7 +2565,7 @@ _ifconv:50  %abs = select i1 %abscond, i9 %tmp_19, i9 %neg
 
 <node id="107" bw="1" op_0_bw="9" op_1_bw="9">
 <![CDATA[
-_ifconv:51  %not_tmp_s = icmp sgt i9 %abs, 14
+_ifconv:51  %not_tmp_s = icmp sgt i9 %abs, 29
 
 ]]></node>
 <StgValue><ssdm name="not_tmp_s"/></StgValue>
@@ -2584,7 +2584,7 @@ _ifconv:51  %not_tmp_s = icmp sgt i9 %abs, 14
 
 <node id="56" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-_ifconv:0  %empty_11 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 103680, i64 103680, i64 103680) nounwind
+_ifconv:0  %empty_11 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800) nounwind
 
 ]]></node>
 <StgValue><ssdm name="empty_11"/></StgValue>
@@ -2648,7 +2648,7 @@ _ifconv:52  %p_cast = select i1 %not_tmp_s, i8 -1, i8 0
 
 <node id="109" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-_ifconv:53  %out_addr_1 = getelementptr inbounds [103680 x i8]* %out, i64 0, i64 %tmp_6
+_ifconv:53  %out_addr_1 = getelementptr inbounds [76800 x i8]* %out, i64 0, i64 %tmp_6
 
 ]]></node>
 <StgValue><ssdm name="out_addr_1"/></StgValue>
@@ -2729,7 +2729,7 @@ _ifconv:56  br label %.preheader
 
 <node id="115" bw="1" op_0_bw="17" op_1_bw="17">
 <![CDATA[
-.preheader2:1  %exitcond1 = icmp eq i17 %i, -27392
+.preheader2:1  %exitcond1 = icmp eq i17 %i, -54272
 
 ]]></node>
 <StgValue><ssdm name="exitcond1"/></StgValue>
@@ -2791,7 +2791,7 @@ _ifconv:56  br label %.preheader
 
 <node id="123" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-:4  %frame1_addr_1 = getelementptr inbounds [103680 x i8]* %frame1, i64 0, i64 %tmp_4
+:4  %frame1_addr_1 = getelementptr inbounds [76800 x i8]* %frame1, i64 0, i64 %tmp_4
 
 ]]></node>
 <StgValue><ssdm name="frame1_addr_1"/></StgValue>
@@ -2826,7 +2826,7 @@ _ifconv:56  br label %.preheader
 
 <node id="119" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-:0  %empty_9 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 103680, i64 103680, i64 103680) nounwind
+:0  %empty_9 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800) nounwind
 
 ]]></node>
 <StgValue><ssdm name="empty_9"/></StgValue>
@@ -2890,7 +2890,7 @@ _ifconv:56  br label %.preheader
 
 <node id="125" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-:6  %frame2_addr = getelementptr inbounds [103680 x i8]* %frame2, i64 0, i64 %tmp_4
+:6  %frame2_addr = getelementptr inbounds [76800 x i8]* %frame2, i64 0, i64 %tmp_4
 
 ]]></node>
 <StgValue><ssdm name="frame2_addr"/></StgValue>
@@ -2922,7 +2922,7 @@ _ifconv:56  br label %.preheader
 
 <node id="127" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-:8  %frame3_addr = getelementptr inbounds [103680 x i8]* %frame3, i64 0, i64 %tmp_4
+:8  %frame3_addr = getelementptr inbounds [76800 x i8]* %frame3, i64 0, i64 %tmp_4
 
 ]]></node>
 <StgValue><ssdm name="frame3_addr"/></StgValue>
@@ -2954,7 +2954,7 @@ _ifconv:56  br label %.preheader
 
 <node id="129" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-:10  %out_addr = getelementptr inbounds [103680 x i8]* %out, i64 0, i64 %tmp_4
+:10  %out_addr = getelementptr inbounds [76800 x i8]* %out, i64 0, i64 %tmp_4
 
 ]]></node>
 <StgValue><ssdm name="out_addr"/></StgValue>
@@ -3095,7 +3095,7 @@ _ifconv:56  br label %.preheader
 
 <node id="139" bw="1" op_0_bw="1" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-.loopexit:5  %p_wr_req = call i1 @_ssdm_op_WriteReq.m_axi.i8P(i8* %gmem_addr_2, i32 103680)
+.loopexit:5  %p_wr_req = call i1 @_ssdm_op_WriteReq.m_axi.i8P(i8* %gmem_addr_2, i32 76800)
 
 ]]></node>
 <StgValue><ssdm name="p_wr_req"/></StgValue>
@@ -3143,7 +3143,7 @@ burst.wr.header:0  %indvar1 = phi i17 [ 0, %.loopexit ], [ %indvar_next1, %burst
 
 <node id="143" bw="1" op_0_bw="17" op_1_bw="17">
 <![CDATA[
-burst.wr.header:1  %exitcond2 = icmp eq i17 %indvar1, -27392
+burst.wr.header:1  %exitcond2 = icmp eq i17 %indvar1, -54272
 
 ]]></node>
 <StgValue><ssdm name="exitcond2"/></StgValue>
@@ -3158,7 +3158,7 @@ burst.wr.header:1  %exitcond2 = icmp eq i17 %indvar1, -27392
 
 <node id="144" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-burst.wr.header:2  %empty_14 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 103680, i64 103680, i64 103680) nounwind
+burst.wr.header:2  %empty_14 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 76800, i64 76800, i64 76800) nounwind
 
 ]]></node>
 <StgValue><ssdm name="empty_14"/></StgValue>
@@ -3220,7 +3220,7 @@ burst.wr.body:3  %tmp_21 = zext i17 %indvar1 to i64
 
 <node id="152" bw="17" op_0_bw="8" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-burst.wr.body:4  %out_addr_2 = getelementptr [103680 x i8]* %out, i64 0, i64 %tmp_21
+burst.wr.body:4  %out_addr_2 = getelementptr [76800 x i8]* %out, i64 0, i64 %tmp_21
 
 ]]></node>
 <StgValue><ssdm name="out_addr_2"/></StgValue>

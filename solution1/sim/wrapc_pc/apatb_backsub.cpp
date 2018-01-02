@@ -138,7 +138,7 @@ bool init)
 		{
 			aesl_fh.read(AUTOTB_TVOUT_PC_gmem, AESL_token); // data
 
-			sc_bv<8> *gmem_pc_buffer = new sc_bv<8>[207360];
+			sc_bv<8> *gmem_pc_buffer = new sc_bv<8>[153600];
 			int i = 0;
 
 			while (AESL_token != "[[/transaction]]")
@@ -211,11 +211,11 @@ bool init)
 					// {
 						// celement: frame_in(7, 0)
 						// {
-							sc_lv<8>* frame_in_lv0_0_103679_1 = new sc_lv<8>[207360];
+							sc_lv<8>* frame_in_lv0_0_76799_1 = new sc_lv<8>[153600];
 						// }
 						// celement: frame_out(7, 0)
 						// {
-							sc_lv<8>* frame_out_lv0_0_103679_1 = new sc_lv<8>[207360];
+							sc_lv<8>* frame_out_lv0_0_76799_1 = new sc_lv<8>[153600];
 						// }
 					// }
 
@@ -224,20 +224,20 @@ bool init)
 						int hls_map_index = 0;
 						// celement: frame_in(7, 0)
 						{
-							// carray: (0) => (103679) @ (1)
-							for (int i_0 = 0; i_0 <= 103679; i_0 += 1)
+							// carray: (0) => (76799) @ (1)
+							for (int i_0 = 0; i_0 <= 76799; i_0 += 1)
 							{
 								hls_map_index++;
 							}
 						}
 						// celement: frame_out(7, 0)
 						{
-							// carray: (0) => (103679) @ (1)
-							for (int i_0 = 0; i_0 <= 103679; i_0 += 1)
+							// carray: (0) => (76799) @ (1)
+							for (int i_0 = 0; i_0 <= 76799; i_0 += 1)
 							{
 								if (&(frame_out[0]) != NULL) // check the null address if the c port is array or others
 								{
-									frame_out_lv0_0_103679_1[hls_map_index++].range(7, 0) = sc_bv<8>(gmem_pc_buffer[hls_map_index].range(7, 0));
+									frame_out_lv0_0_76799_1[hls_map_index++].range(7, 0) = sc_bv<8>(gmem_pc_buffer[hls_map_index].range(7, 0));
 								}
 							}
 						}
@@ -248,32 +248,32 @@ bool init)
 						int hls_map_index = 0;
 						// celement: frame_in(7, 0)
 						{
-							// carray: (0) => (103679) @ (1)
-							for (int i_0 = 0; i_0 <= 103679; i_0 += 1)
+							// carray: (0) => (76799) @ (1)
+							for (int i_0 = 0; i_0 <= 76799; i_0 += 1)
 							{
 								// sub                    : i_0
 								// ori_name               : frame_in[i_0]
 								// sub_1st_elem           : 0
 								// ori_name_1st_elem      : frame_in[0]
 								// output_left_conversion : frame_in[i_0]
-								// output_type_conversion : (frame_in_lv0_0_103679_1[hls_map_index++]).to_uint64()
+								// output_type_conversion : (frame_in_lv0_0_76799_1[hls_map_index++]).to_uint64()
 								hls_map_index++;
 							}
 						}
 						// celement: frame_out(7, 0)
 						{
-							// carray: (0) => (103679) @ (1)
-							for (int i_0 = 0; i_0 <= 103679; i_0 += 1)
+							// carray: (0) => (76799) @ (1)
+							for (int i_0 = 0; i_0 <= 76799; i_0 += 1)
 							{
 								// sub                    : i_0
 								// ori_name               : frame_out[i_0]
 								// sub_1st_elem           : 0
 								// ori_name_1st_elem      : frame_out[0]
 								// output_left_conversion : frame_out[i_0]
-								// output_type_conversion : (frame_out_lv0_0_103679_1[hls_map_index++]).to_uint64()
+								// output_type_conversion : (frame_out_lv0_0_76799_1[hls_map_index++]).to_uint64()
 								if (&(frame_out[0]) != NULL) // check the null address if the c port is array or others
 								{
-									frame_out[i_0] = (frame_out_lv0_0_103679_1[hls_map_index++]).to_uint64();
+									frame_out[i_0] = (frame_out_lv0_0_76799_1[hls_map_index++]).to_uint64();
 								}
 							}
 						}
@@ -450,7 +450,7 @@ bool init)
 		sprintf(tvin_gmem, "[[transaction]] %d\n", AESL_transaction);
 		aesl_fh.write(AUTOTB_TVIN_gmem, tvin_gmem);
 
-		sc_bv<8>* gmem_tvin_wrapc_buffer = new sc_bv<8>[207360];
+		sc_bv<8>* gmem_tvin_wrapc_buffer = new sc_bv<8>[153600];
 
 		// RTL Name: gmem
 		{
@@ -459,8 +459,8 @@ bool init)
 				int hls_map_index = 0;
 				// celement: frame_in(7, 0)
 				{
-					// carray: (0) => (103679) @ (1)
-					for (int i_0 = 0; i_0 <= 103679; i_0 += 1)
+					// carray: (0) => (76799) @ (1)
+					for (int i_0 = 0; i_0 <= 76799; i_0 += 1)
 					{
 						// sub                   : i_0
 						// ori_name              : frame_in[i_0]
@@ -478,8 +478,8 @@ bool init)
 				}
 				// celement: frame_out(7, 0)
 				{
-					// carray: (0) => (103679) @ (1)
-					for (int i_0 = 0; i_0 <= 103679; i_0 += 1)
+					// carray: (0) => (76799) @ (1)
+					for (int i_0 = 0; i_0 <= 76799; i_0 += 1)
 					{
 						// sub                   : i_0
 						// ori_name              : frame_out[i_0]
@@ -499,13 +499,13 @@ bool init)
 		}
 
 		// dump tv to file
-		for (int i = 0; i < 207360; i++)
+		for (int i = 0; i < 153600; i++)
 		{
 			sprintf(tvin_gmem, "%s\n", (gmem_tvin_wrapc_buffer[i]).to_string(SC_HEX).c_str());
 			aesl_fh.write(AUTOTB_TVIN_gmem, tvin_gmem);
 		}
 
-		tcl_file.set_num(207360, &tcl_file.gmem_depth);
+		tcl_file.set_num(153600, &tcl_file.gmem_depth);
 		sprintf(tvin_gmem, "[[/transaction]] \n");
 		aesl_fh.write(AUTOTB_TVIN_gmem, tvin_gmem);
 
@@ -605,7 +605,7 @@ bool init)
 		sprintf(tvout_gmem, "[[transaction]] %d\n", AESL_transaction);
 		aesl_fh.write(AUTOTB_TVOUT_gmem, tvout_gmem);
 
-		sc_bv<8>* gmem_tvout_wrapc_buffer = new sc_bv<8>[207360];
+		sc_bv<8>* gmem_tvout_wrapc_buffer = new sc_bv<8>[153600];
 
 		// RTL Name: gmem
 		{
@@ -614,8 +614,8 @@ bool init)
 				int hls_map_index = 0;
 				// celement: frame_in(7, 0)
 				{
-					// carray: (0) => (103679) @ (1)
-					for (int i_0 = 0; i_0 <= 103679; i_0 += 1)
+					// carray: (0) => (76799) @ (1)
+					for (int i_0 = 0; i_0 <= 76799; i_0 += 1)
 					{
 						// sub                   : i_0
 						// ori_name              : frame_in[i_0]
@@ -633,8 +633,8 @@ bool init)
 				}
 				// celement: frame_out(7, 0)
 				{
-					// carray: (0) => (103679) @ (1)
-					for (int i_0 = 0; i_0 <= 103679; i_0 += 1)
+					// carray: (0) => (76799) @ (1)
+					for (int i_0 = 0; i_0 <= 76799; i_0 += 1)
 					{
 						// sub                   : i_0
 						// ori_name              : frame_out[i_0]
@@ -654,13 +654,13 @@ bool init)
 		}
 
 		// dump tv to file
-		for (int i = 0; i < 207360; i++)
+		for (int i = 0; i < 153600; i++)
 		{
 			sprintf(tvout_gmem, "%s\n", (gmem_tvout_wrapc_buffer[i]).to_string(SC_HEX).c_str());
 			aesl_fh.write(AUTOTB_TVOUT_gmem, tvout_gmem);
 		}
 
-		tcl_file.set_num(207360, &tcl_file.gmem_depth);
+		tcl_file.set_num(153600, &tcl_file.gmem_depth);
 		sprintf(tvout_gmem, "[[/transaction]] \n");
 		aesl_fh.write(AUTOTB_TVOUT_gmem, tvout_gmem);
 

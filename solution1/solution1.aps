@@ -3,7 +3,7 @@
         <DownStreamTool name=""/>
     </downStreamTool>
     <clockList>
-        <clock name="default" period="10"/>
+        <clock default="false" name="default" period="10"/>
     </clockList>
     <config>
         <schedule model="backsub"/>
@@ -48,7 +48,7 @@
         <Format formatName="pcore" use_netlist="none"/>
     </ExportDesign>
     <Simulation>
-        <SimFlow askAgain="true" dumpTrace="none" name="cosim" optimizeCompile="false" reduce_diskspace="false" setup="true" toolName="Auto">
+        <SimFlow askAgain="true" dumpTrace="all" name="cosim" optimizeCompile="false" reduce_diskspace="false" setup="true" toolName="Auto">
             <Rtl active="false" name="systemc"/>
             <Rtl active="true" name="verilog"/>
             <Rtl active="false" name="vhdl"/>

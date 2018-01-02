@@ -23,8 +23,8 @@ generic (
     C_S_AXI_AXILITES_DATA_WIDTH : INTEGER := 32;
     C_S_AXI_CRTL_BUS_ADDR_WIDTH : INTEGER := 6;
     C_S_AXI_CRTL_BUS_DATA_WIDTH : INTEGER := 32;
-    C_M_AXI_GMEM_CACHE_VALUE : INTEGER := 3;
     C_M_AXI_GMEM_PROT_VALUE : INTEGER := 0;
+    C_M_AXI_GMEM_CACHE_VALUE : INTEGER := 3;
     C_M_AXI_GMEM_USER_VALUE : INTEGER := 0 );
 port (
     ap_clk : IN STD_LOGIC;
@@ -115,7 +115,7 @@ end;
 architecture behav of backsub is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "backsub,hls_ip_2015_4,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=8.750000,HLS_SYN_LAT=311071,HLS_SYN_TPT=none,HLS_SYN_MEM=256,HLS_SYN_DSP=13,HLS_SYN_FF=3282,HLS_SYN_LUT=5048}";
+    "backsub,hls_ip_2015_4,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=8.750000,HLS_SYN_LAT=230431,HLS_SYN_TPT=none,HLS_SYN_MEM=256,HLS_SYN_DSP=13,HLS_SYN_FF=3282,HLS_SYN_LUT=5048}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_ST_st1_fsm_0 : STD_LOGIC_VECTOR (18 downto 0) := "0000000000000000001";
@@ -153,22 +153,22 @@ architecture behav of backsub is
     constant ap_const_lv32_7 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000111";
     constant ap_const_lv32_9 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000001001";
     constant ap_const_lv17_0 : STD_LOGIC_VECTOR (16 downto 0) := "00000000000000000";
-    constant ap_const_lv32_19500 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000011001010100000000";
+    constant ap_const_lv32_12C00 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000010010110000000000";
     constant ap_const_lv3_0 : STD_LOGIC_VECTOR (2 downto 0) := "000";
     constant ap_const_lv2_0 : STD_LOGIC_VECTOR (1 downto 0) := "00";
     constant ap_const_lv4_0 : STD_LOGIC_VECTOR (3 downto 0) := "0000";
     constant ap_const_lv32_12 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000010010";
-    constant ap_const_lv32_3F000000 : STD_LOGIC_VECTOR (31 downto 0) := "00111111000000000000000000000000";
-    constant ap_const_lv32_3E99999A : STD_LOGIC_VECTOR (31 downto 0) := "00111110100110011001100110011010";
+    constant ap_const_lv32_3DCCCCCD : STD_LOGIC_VECTOR (31 downto 0) := "00111101110011001100110011001101";
     constant ap_const_lv32_3E4CCCCD : STD_LOGIC_VECTOR (31 downto 0) := "00111110010011001100110011001101";
-    constant ap_const_lv17_19500 : STD_LOGIC_VECTOR (16 downto 0) := "11001010100000000";
+    constant ap_const_lv32_3F333333 : STD_LOGIC_VECTOR (31 downto 0) := "00111111001100110011001100110011";
+    constant ap_const_lv17_12C00 : STD_LOGIC_VECTOR (16 downto 0) := "10010110000000000";
     constant ap_const_lv17_1 : STD_LOGIC_VECTOR (16 downto 0) := "00000000000000001";
     constant ap_const_lv32_17 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000010111";
     constant ap_const_lv32_1E : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000011110";
     constant ap_const_lv9_181 : STD_LOGIC_VECTOR (8 downto 0) := "110000001";
     constant ap_const_lv8_7F : STD_LOGIC_VECTOR (7 downto 0) := "01111111";
     constant ap_const_lv9_0 : STD_LOGIC_VECTOR (8 downto 0) := "000000000";
-    constant ap_const_lv9_E : STD_LOGIC_VECTOR (8 downto 0) := "000001110";
+    constant ap_const_lv9_1D : STD_LOGIC_VECTOR (8 downto 0) := "000011101";
     constant ap_const_lv8_FF : STD_LOGIC_VECTOR (7 downto 0) := "11111111";
     constant ap_const_lv8_0 : STD_LOGIC_VECTOR (7 downto 0) := "00000000";
 
@@ -935,7 +935,7 @@ begin
     frame1_U : component backsub_frame1
     generic map (
         DataWidth => 8,
-        AddressRange => 103680,
+        AddressRange => 76800,
         AddressWidth => 17)
     port map (
         clk => ap_clk,
@@ -949,7 +949,7 @@ begin
     frame2_U : component backsub_frame2
     generic map (
         DataWidth => 8,
-        AddressRange => 103680,
+        AddressRange => 76800,
         AddressWidth => 17)
     port map (
         clk => ap_clk,
@@ -967,7 +967,7 @@ begin
     frame3_U : component backsub_frame2
     generic map (
         DataWidth => 8,
-        AddressRange => 103680,
+        AddressRange => 76800,
         AddressWidth => 17)
     port map (
         clk => ap_clk,
@@ -985,7 +985,7 @@ begin
     out_U : component backsub_frame1
     generic map (
         DataWidth => 8,
-        AddressRange => 103680,
+        AddressRange => 76800,
         AddressWidth => 17)
     port map (
         clk => ap_clk,
@@ -1037,7 +1037,7 @@ begin
         clk => ap_clk,
         reset => ap_rst_n_inv,
         din0 => tmp_8_reg_736,
-        din1 => ap_const_lv32_3F000000,
+        din1 => ap_const_lv32_3DCCCCCD,
         ce => grp_fu_349_ce,
         dout => grp_fu_349_p2);
 
@@ -1052,7 +1052,7 @@ begin
         clk => ap_clk,
         reset => ap_rst_n_inv,
         din0 => tmp_11_reg_741,
-        din1 => ap_const_lv32_3E99999A,
+        din1 => ap_const_lv32_3E4CCCCD,
         ce => grp_fu_354_ce,
         dout => grp_fu_354_p2);
 
@@ -1067,7 +1067,7 @@ begin
         clk => ap_clk,
         reset => ap_rst_n_inv,
         din0 => tmp_15_reg_761,
-        din1 => ap_const_lv32_3E4CCCCD,
+        din1 => ap_const_lv32_3F333333,
         ce => grp_fu_359_ce,
         dout => grp_fu_359_p2);
 
@@ -2407,10 +2407,10 @@ begin
     backsub_AXILiteS_s_axi_U_ap_dummy_ce <= ap_const_logic_1;
     backsub_CRTL_BUS_s_axi_U_ap_dummy_ce <= ap_const_logic_1;
     backsub_gmem_m_axi_U_ap_dummy_ce <= ap_const_logic_1;
-    exitcond1_fu_600_p2 <= "1" when (i_reg_319 = ap_const_lv17_19500) else "0";
-    exitcond2_fu_621_p2 <= "1" when (indvar1_reg_330 = ap_const_lv17_19500) else "0";
-    exitcond8_fu_390_p2 <= "1" when (indvar_phi_fu_300_p4 = ap_const_lv17_19500) else "0";
-    exitcond_fu_407_p2 <= "1" when (i1_reg_308 = ap_const_lv17_19500) else "0";
+    exitcond1_fu_600_p2 <= "1" when (i_reg_319 = ap_const_lv17_12C00) else "0";
+    exitcond2_fu_621_p2 <= "1" when (indvar1_reg_330 = ap_const_lv17_12C00) else "0";
+    exitcond8_fu_390_p2 <= "1" when (indvar_phi_fu_300_p4 = ap_const_lv17_12C00) else "0";
+    exitcond_fu_407_p2 <= "1" when (i1_reg_308 = ap_const_lv17_12C00) else "0";
 
     -- frame1_address0 assign process. --
     frame1_address0_assign_proc : process(ap_reg_ppiten_pp0_it2, ap_sig_cseq_ST_pp1_stg0_fsm_10, ap_reg_ppiten_pp1_it0, tmp_6_fu_419_p1, ap_sig_cseq_ST_pp2_stg0_fsm_11, ap_reg_ppiten_pp2_it0, tmp_4_fu_612_p1, tmp_s_fu_402_p1)
@@ -2573,7 +2573,7 @@ begin
     gmem_ARBURST <= ap_const_lv2_0;
     gmem_ARCACHE <= ap_const_lv4_0;
     gmem_ARID <= ap_const_lv1_0;
-    gmem_ARLEN <= ap_const_lv32_19500;
+    gmem_ARLEN <= ap_const_lv32_12C00;
     gmem_ARLOCK <= ap_const_lv2_0;
     gmem_ARPROT <= ap_const_lv3_0;
     gmem_ARQOS <= ap_const_lv4_0;
@@ -2595,7 +2595,7 @@ begin
     gmem_AWBURST <= ap_const_lv2_0;
     gmem_AWCACHE <= ap_const_lv4_0;
     gmem_AWID <= ap_const_lv1_0;
-    gmem_AWLEN <= ap_const_lv32_19500;
+    gmem_AWLEN <= ap_const_lv32_12C00;
     gmem_AWLOCK <= ap_const_lv2_0;
     gmem_AWPROT <= ap_const_lv3_0;
     gmem_AWQOS <= ap_const_lv4_0;
@@ -2707,7 +2707,7 @@ begin
     isNeg_fu_475_p3 <= sh_assign_fu_469_p2(8 downto 8);
     loc_V_1_fu_451_p1 <= p_Val2_s_fu_437_p1(23 - 1 downto 0);
     neg_fu_566_p2 <= std_logic_vector(unsigned(ap_const_lv9_0) - unsigned(tmp_19_fu_560_p2));
-    not_tmp_s_fu_586_p2 <= "1" when (signed(abs_fu_578_p3) > signed(ap_const_lv9_E)) else "0";
+    not_tmp_s_fu_586_p2 <= "1" when (signed(abs_fu_578_p3) > signed(ap_const_lv9_1D)) else "0";
 
     -- out_address0 assign process. --
     out_address0_assign_proc : process(ap_reg_ppiten_pp1_it24, ap_reg_ppstg_tmp_6_reg_685_pp1_it23, ap_sig_cseq_ST_pp2_stg0_fsm_11, ap_reg_ppiten_pp2_it1, tmp_4_reg_806, ap_sig_cseq_ST_pp3_stg0_fsm_13, ap_reg_ppiten_pp3_it0, tmp_21_fu_633_p1)

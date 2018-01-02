@@ -505,22 +505,22 @@ struct backsub : public sc_module {
     static const sc_lv<32> ap_const_lv32_7;
     static const sc_lv<32> ap_const_lv32_9;
     static const sc_lv<17> ap_const_lv17_0;
-    static const sc_lv<32> ap_const_lv32_19500;
+    static const sc_lv<32> ap_const_lv32_12C00;
     static const sc_lv<3> ap_const_lv3_0;
     static const sc_lv<2> ap_const_lv2_0;
     static const sc_lv<4> ap_const_lv4_0;
     static const sc_lv<32> ap_const_lv32_12;
-    static const sc_lv<32> ap_const_lv32_3F000000;
-    static const sc_lv<32> ap_const_lv32_3E99999A;
+    static const sc_lv<32> ap_const_lv32_3DCCCCCD;
     static const sc_lv<32> ap_const_lv32_3E4CCCCD;
-    static const sc_lv<17> ap_const_lv17_19500;
+    static const sc_lv<32> ap_const_lv32_3F333333;
+    static const sc_lv<17> ap_const_lv17_12C00;
     static const sc_lv<17> ap_const_lv17_1;
     static const sc_lv<32> ap_const_lv32_17;
     static const sc_lv<32> ap_const_lv32_1E;
     static const sc_lv<9> ap_const_lv9_181;
     static const sc_lv<8> ap_const_lv8_7F;
     static const sc_lv<9> ap_const_lv9_0;
-    static const sc_lv<9> ap_const_lv9_E;
+    static const sc_lv<9> ap_const_lv9_1D;
     static const sc_lv<8> ap_const_lv8_FF;
     static const sc_lv<8> ap_const_lv8_0;
     // Thread declarations

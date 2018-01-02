@@ -15,9 +15,9 @@
 `define AUTOTB_PER_RESULT_TRANS_FILE "backsub.performance.result.transaction.xml"
 `define AUTOTB_TOP_INST AESL_inst_apatb_backsub_top
 `define AUTOTB_MAX_ALLOW_LATENCY  15000000
-`define AUTOTB_TRANSACTION_NUM  33
+`define AUTOTB_TRANSACTION_NUM  94
 `define AUTOTB_CLOCK_PERIOD_DIV2 5.00
-`define LENGTH_gmem 207360
+`define LENGTH_gmem 153600
 `define LENGTH_frame_in 1
 `define LENGTH_frame_out 1
 `define LENGTH_init 1
@@ -145,8 +145,8 @@ reg [31 : 0] AESL_mLatCnterIn_addr;
 reg [31 : 0] AESL_mLatCnterOut [0 : `AUTOTB_TRANSACTION_NUM + 1];
 reg [31 : 0] AESL_mLatCnterOut_addr ;
 reg [31 : 0] AESL_clk_counter ;
-reg [20 - 1 : 0] AESL_clk_ready[0 : `AUTOTB_TRANSACTION_NUM + 1];
-reg [20 - 1 : 0] AESL_clk_done[0 : `AUTOTB_TRANSACTION_NUM + 1];
+reg [19 - 1 : 0] AESL_clk_ready[0 : `AUTOTB_TRANSACTION_NUM + 1];
+reg [19 - 1 : 0] AESL_clk_done[0 : `AUTOTB_TRANSACTION_NUM + 1];
 
 reg reported_stuck = 0;
 reg reported_stuck_cnt = 0;

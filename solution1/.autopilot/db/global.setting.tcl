@@ -43,8 +43,8 @@ set SCTraceOption "all"
 set TargetInfo "xc7z020:clg484:-1"
 set SourceFiles {sc {} c ../core.cpp}
 set SourceFlags {sc {} c {{}}}
-set DirectiveFile {/home/chathura/HoG_IP/backsub_hls_maxi/solution1/solution1.directive}
-set TBFiles {verilog {../test.cpp ../cut.avi} bc {../test.cpp ../cut.avi} sc {../test.cpp ../cut.avi} vhdl {../test.cpp ../cut.avi} c {} cas {../test.cpp ../cut.avi}}
+set DirectiveFile {/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/solution1/solution1.directive}
+set TBFiles {verilog {../test.cpp ../cut_out.avi} bc {../test.cpp ../cut_out.avi} sc {../test.cpp ../cut_out.avi} vhdl {../test.cpp ../cut_out.avi} c {} cas {../test.cpp ../cut_out.avi}}
 set SpecLanguage "C"
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

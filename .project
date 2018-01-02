@@ -29,52 +29,52 @@
 		<link>
 			<name>source</name>
 			<type>2</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/.apc/.src</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/.apc/.src</location>
 		</link>
 		<link>
 			<name>testbench</name>
 			<type>2</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/.apc/.tb</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/.apc/.tb</location>
 		</link>
 		<link>
 			<name>solution1/constraints</name>
 			<type>2</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/solution1/.tcls</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/solution1/.tcls</location>
 		</link>
 		<link>
 			<name>source/core.cpp</name>
 			<type>1</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/core.cpp</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/core.cpp</location>
 		</link>
 		<link>
 			<name>source/core.h</name>
 			<type>1</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/core.h</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/core.h</location>
 		</link>
 		<link>
-			<name>testbench/cut.avi</name>
+			<name>testbench/cut_out.avi</name>
 			<type>1</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/cut.avi</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/cut_out.avi</location>
 		</link>
 		<link>
 			<name>testbench/test.cpp</name>
 			<type>1</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/test.cpp</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/test.cpp</location>
 		</link>
 		<link>
 			<name>solution1/constraints/.xml.directive</name>
 			<type>1</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/solution1/solution1.directive</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/solution1/solution1.directive</location>
 		</link>
 		<link>
 			<name>solution1/constraints/directives.tcl</name>
 			<type>1</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/solution1/directives.tcl</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/solution1/directives.tcl</location>
 		</link>
 		<link>
 			<name>solution1/constraints/script.tcl</name>
 			<type>1</type>
-			<location>/home/chathura/HoG_IP/backsub_hls_maxi/solution1/script.tcl</location>
+			<location>/home/zynq-fyp/Desktop/maxi_latest/backsub_hls_maxi/solution1/script.tcl</location>
 		</link>
 	</linkedResources>
 </projectDescription>

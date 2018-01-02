@@ -10,7 +10,7 @@ module backsub_frame2_ram (addr0, ce0, d0, we0, q0, addr1, ce1, d1, we1,  clk);
 
 parameter DWIDTH = 8;
 parameter AWIDTH = 17;
-parameter MEM_SIZE = 103680;
+parameter MEM_SIZE = 76800;
 
 input[AWIDTH-1:0] addr0;
 input ce0;
@@ -73,7 +73,7 @@ module backsub_frame2(
     d1);
 
 parameter DataWidth = 32'd8;
-parameter AddressRange = 32'd103680;
+parameter AddressRange = 32'd76800;
 parameter AddressWidth = 32'd17;
 input reset;
 input clk;
